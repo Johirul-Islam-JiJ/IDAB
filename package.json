@@ -23,5 +23,8 @@
         "sass": "^1.32.11",
         "sass-loader": "^11.0.1",
         "webpack-cli": "^4.10.0"
+    },
+    "dependencies": {
+        "react-icons": "^4.4.0"
     }
 }

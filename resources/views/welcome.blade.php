@@ -36,10 +36,9 @@
                 </div>
             @endif
 
-            <div>
-                <h1>Welcome To IDAB(Interior Design Association of Bangladesh)</h1>
+            <div id="app">
             </div>
-
+            <script src="js/app.js"></script>
         </div>
     </body>
 </html>
