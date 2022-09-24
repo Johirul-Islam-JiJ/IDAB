@@ -1,7 +1,7 @@
 
 footer {
 
-    background: rgb(0, 0, 0);
+    background: rgb(0, 33, 65);
     padding: 3rem 0;
     text-align: center;
     font-size: 1rem;
@@ -10,7 +10,7 @@ footer {
 
 
 footer a {
-    color: rgb(255, 77, 77);
+    color: rgb(255, 255, 255);
 }
 
 .footer_logo {
@@ -37,8 +37,8 @@ footer a {
 }
 
 .footer_socials a{
-    background: rgb(248, 3, 3);
-    color: black;
+    background: rgb(0, 33, 65);
+    color: rgb(255, 255, 255);
     padding: 0.8rem;
     border-radius: 5rem;
     display: flex;
@@ -55,7 +55,7 @@ footer a {
 .footer_copyright {
     margin-bottom: 4rem;
     color: red;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 
