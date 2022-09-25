@@ -23,7 +23,7 @@ a {
     align-items: center;
     justify-content: space-around;
     height: 8vh;
-    background: rgb(0, 33, 65);
+    background: rgb(61, 113, 180);
 }
 .nav__brand {
     text-transform: uppercase;
