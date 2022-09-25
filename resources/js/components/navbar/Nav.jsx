@@ -26,7 +26,7 @@ function Navbar() {
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="/" className="nav__link">
+                    <a href="../about/About.jsx" className="nav__link">
                         About IDAB
                     </a>
                 </li>

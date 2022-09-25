@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Nav from './navbar/nav';
 import Footer from './footer/Footer';
-
+import About from './about/about';
 function Index() {
     return (
         <div className="container">
@@ -13,10 +13,10 @@ function Index() {
                         <div className="card-header">
                             <h1>Welcome To IDAB</h1>
                         </div>
-
                         <div className="card-body">
                             <h4>Interior Design Association Of Bangladesh</h4>
                         </div>
+                        <About />
                     </div>
                 </div>
             </div>

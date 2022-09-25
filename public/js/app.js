@@ -5110,7 +5110,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var _navbar_nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navbar/nav */ "./resources/js/components/navbar/nav.jsx");
 /* harmony import */ var _footer_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer/Footer */ "./resources/js/components/footer/Footer.jsx");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _about_about__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about/about */ "./resources/js/components/about/about.jsx");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -5119,36 +5121,68 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Index() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
     className: "container",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_navbar_nav__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_navbar_nav__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
       className: "row justify-content-center",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
         className: "col-md-8",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
           className: "card",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
             className: "card-header",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h1", {
               children: "Welcome To IDAB"
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
             className: "card-body",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h4", {
               children: "Interior Design Association Of Bangladesh"
             })
-          })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_about_about__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
         })
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
   });
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
 
 if (document.getElementById('app')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(Index, {}), document.getElementById('app'));
+  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Index, {}), document.getElementById('app'));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/about/about.jsx":
+/*!*************************************************!*\
+  !*** ./resources/js/components/about/about.jsx ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _about_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./about.css */ "./resources/js/components/about/about.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+var About = function About() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("about", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+      href: "#",
+      className: "footer_logo",
+      children: "IDAB"
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
 
 /***/ }),
 
@@ -5320,7 +5354,7 @@ function Navbar() {
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
         className: "nav__item",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
-          href: "/",
+          href: "../about/About.jsx",
           className: "nav__link",
           children: "About IDAB"
         })
@@ -10630,6 +10664,30 @@ defineJQueryPlugin(Toast);
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/about/about.css":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/about/about.css ***!
+  \***********************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".footer_copyright {\n    margin-bottom: 4rem;\n    color: rgb(250, 250, 250);\n    font-size: 1rem;\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/footer/footer.css":
 /*!*************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/footer/footer.css ***!
@@ -10647,7 +10705,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nfooter {\n\n    background: rgb(61, 113, 180);\n    padding: 3rem 0;\n    text-align: center;\n    font-size: 1rem;\n    margin-top: 7rem;\n}\n\n\nfooter a {\n    color: rgb(255, 255, 255);\n}\n\n.footer_logo {\n   font-size: 2rem;\n   font-weight: 500;\n   margin-bottom: 2rem;\n   display: inline-block;\n}\n.permalinks {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    gap: 3rem;\n    margin-right: 1.5rem;\n    margin-left: 1.5rem;\n\n}\n\n.footer_socials {\n    display: flex;\n    justify-content: center;\n    gap: 2rem;\n    margin-bottom: 4rem;\n}\n\n.footer_socials a{\n    background: rgb(61, 113, 180);\n    color: rgb(255, 255, 255);\n    padding: 0.8rem;\n    border-radius: 5rem;\n    display: flex;\n    border: 1px solid transparent;\n}\n\n.footer_socials a:hover{\n    background: transparent;\n    color: aquamarine;\n    border-color: red;\n\n}\n\n.footer_copyright {\n    margin-bottom: 4rem;\n    color: red;\n    font-size: 1rem;\n}\n\n\n/* ========== Media Queries (Medium Devices) =============*/\n@media screen and (max-width:1024px) {\n\n\n\n}\n\n\n/* ========== Media Queries (Small Devices) =============*/\n@media screen and (max-width:600px) {\n    .permalinks {\n        flex-direction: column;\n        gap: 1.5rem;\n    }\n\n    .footer_socials {\n        margin-bottom: 2.6rem;\n    }\n\n\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\r\nfooter {\r\n\r\n    background: rgb(61, 113, 180);\r\n    padding: 3rem 0;\r\n    text-align: center;\r\n    font-size: 1rem;\r\n    margin-top: 7rem;\r\n}\r\n\r\n\r\nfooter a {\r\n    color: rgb(255, 255, 255);\r\n}\r\n\r\n.footer_logo {\r\n   font-size: 2rem;\r\n   font-weight: 500;\r\n   margin-bottom: 2rem;\r\n   display: inline-block;\r\n}\r\n.permalinks {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: center;\r\n    gap: 3rem;\r\n    margin-right: 1.5rem;\r\n    margin-left: 1.5rem;\r\n\r\n}\r\n\r\n.footer_socials {\r\n    display: flex;\r\n    justify-content: center;\r\n    gap: 2rem;\r\n    margin-bottom: 4rem;\r\n}\r\n\r\n.footer_socials a{\r\n    background: rgb(61, 113, 180);\r\n    color: rgb(255, 255, 255);\r\n    padding: 0.8rem;\r\n    border-radius: 5rem;\r\n    display: flex;\r\n    border: 1px solid transparent;\r\n}\r\n\r\n.footer_socials a:hover{\r\n    background: transparent;\r\n    color: aquamarine;\r\n    border-color: red;\r\n\r\n}\r\n\r\n.footer_copyright {\r\n    margin-bottom: 4rem;\r\n    color: red;\r\n    font-size: 1rem;\r\n}\r\n\r\n\r\n/* ========== Media Queries (Medium Devices) =============*/\r\n@media screen and (max-width:1024px) {\r\n\r\n\r\n\r\n}\r\n\r\n\r\n/* ========== Media Queries (Small Devices) =============*/\r\n@media screen and (max-width:600px) {\r\n    .permalinks {\r\n        flex-direction: column;\r\n        gap: 1.5rem;\r\n    }\r\n\r\n    .footer_socials {\r\n        margin-bottom: 2.6rem;\r\n    }\r\n\r\n\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10671,7 +10729,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*,\n*::after,\n*::before {\n    margin: 0;\n    box-sizing: border-box;\n}\nhtml {\n    font-size: 62.5%;\n}\nbody {\n    font-size: 1.6rem;\n}\nli {\n    list-style: none;\n}\na {\n    text-decoration: none;\n    color: rgb(204, 204, 204);\n}\n\n.nav {\n    display: flex;\n    align-items: center;\n    justify-content: space-around;\n    height: 8vh;\n    background: rgb(61, 113, 180);\n}\n.nav__brand {\n    text-transform: uppercase;\n}\n\n.nav__menu {\n    display: flex;\n    align-items: center;\n    justify-content: space-around;\n    gap: 3rem;\n}\n.nav__toggler {\n    display: none;\n}\n.nav__toggler div {\n    width: 2.5rem;\n    height: 0.2rem;\n    margin: 0.4rem;\n    background: rgb(204, 204, 204);\n    transition: 0.3s ease-in;\n}\n\n@media screen and (max-width: 768px) {\n    .nav__toggler {\n        display: block;\n        cursor: pointer;\n    }\n    .nav__menu {\n        position: fixed;\n        top: 7vh;\n        right: 0;\n        height: 93vh;\n        width: 50vw;\n        background: rgb(0, 33, 65);\n        flex-direction: column;\n        transform: translateX(100%);\n        transition: 0.5s ease-in;\n    }\n}\n/* Active Class */\n.nav__active {\n    transform: translateX(0%);\n}\n\n/* Toggle Icon Animation */\n\n.toggle .line1 {\n    transform: rotate(-45deg) translate(-4px, 5px);\n}\n.toggle .line2 {\n    opacity: 0;\n}\n.toggle .line3 {\n    transform: rotate(45deg) translate(-4px, -5px);\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "*,\r\n*::after,\r\n*::before {\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\nhtml {\r\n    font-size: 62.5%;\r\n}\r\nbody {\r\n    font-size: 1.6rem;\r\n}\r\nli {\r\n    list-style: none;\r\n}\r\na {\r\n    text-decoration: none;\r\n    color: rgb(204, 204, 204);\r\n}\r\n\r\n.nav {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-around;\r\n    height: 8vh;\r\n    background: rgb(61, 113, 180);\r\n}\r\n.nav__brand {\r\n    text-transform: uppercase;\r\n}\r\n\r\n.nav__menu {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-around;\r\n    gap: 3rem;\r\n}\r\n.nav__toggler {\r\n    display: none;\r\n}\r\n.nav__toggler div {\r\n    width: 2.5rem;\r\n    height: 0.2rem;\r\n    margin: 0.4rem;\r\n    background: rgb(204, 204, 204);\r\n    transition: 0.3s ease-in;\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n    .nav__toggler {\r\n        display: block;\r\n        cursor: pointer;\r\n    }\r\n    .nav__menu {\r\n        position: fixed;\r\n        top: 7vh;\r\n        right: 0;\r\n        height: 93vh;\r\n        width: 50vw;\r\n        background: rgb(0, 33, 65);\r\n        flex-direction: column;\r\n        transform: translateX(100%);\r\n        transition: 0.5s ease-in;\r\n    }\r\n}\r\n/* Active Class */\r\n.nav__active {\r\n    transform: translateX(0%);\r\n}\r\n\r\n/* Toggle Icon Animation */\r\n\r\n.toggle .line1 {\r\n    transform: rotate(-45deg) translate(-4px, 5px);\r\n}\r\n.toggle .line2 {\r\n    opacity: 0;\r\n}\r\n.toggle .line3 {\r\n    transform: rotate(45deg) translate(-4px, -5px);\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -60706,6 +60764,36 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler-tracing.development.js */ "./node_modules/scheduler/cjs/scheduler-tracing.development.js");
 }
 
+
+/***/ }),
+
+/***/ "./resources/js/components/about/about.css":
+/*!*************************************************!*\
+  !*** ./resources/js/components/about/about.css ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_about_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./about.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/about/about.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_about_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_about_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
