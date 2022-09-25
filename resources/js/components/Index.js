@@ -3,23 +3,13 @@ import ReactDOM from 'react-dom';
 import Nav from './navbar/nav';
 import Footer from './footer/Footer';
 import About from './about/about';
+import Contact from './contact/Contact';
 function Index() {
     return (
         <div className="container">
             <Nav />
-            <div className="row justify-content-center">
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-header">
-                            <h1>Welcome To IDAB</h1>
-                        </div>
-                        <div className="card-body">
-                            <h4>Interior Design Association Of Bangladesh</h4>
-                        </div>
-                        <About />
-                    </div>
-                </div>
-            </div>
+            <About />
+            <Contact />
             <Footer />
         </div>
     );

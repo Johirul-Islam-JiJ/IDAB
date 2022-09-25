@@ -56,7 +56,7 @@ function Navbar() {
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="/" className="nav__link">
+                    <a href="../contact/Contact.jsx" className="nav__link">
                         Contact
                     </a>
                 </li>

@@ -25,6 +25,7 @@
         "webpack-cli": "^4.10.0"
     },
     "dependencies": {
+        "emailjs-com": "^3.2.0",
         "react-icons": "^4.4.0"
     }
 }
