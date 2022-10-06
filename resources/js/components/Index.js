@@ -2,14 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Nav from './navbar/nav';
 import Footer from './footer/Footer';
-import About from './about/about';
-import Contact from './contact/Contact';
 function Index() {
     return (
         <div className="container">
             <Nav />
-            <About />
-            <Contact />
             <Footer />
         </div>
     );
