@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./nav.css";
+import Contact from "../contact/Contact";
 
 function Navbar() {
     const [active, setActive] = useState("nav__menu");
@@ -56,7 +57,7 @@ function Navbar() {
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="../contact/Contact.jsx" className="nav__link">
+                    <a href="Contact" className="nav__link">
                         Contact
                     </a>
                 </li>
