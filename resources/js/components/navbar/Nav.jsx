@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./nav.css";
-import Contact from "../contact/Contact";
+import AppRouter from "../AppRouter";
 
 function Navbar() {
     const [active, setActive] = useState("nav__menu");
@@ -27,7 +27,7 @@ function Navbar() {
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="../about/About.jsx" className="nav__link">
+                    <a href="http://127.0.0.1:8000/" className="nav__link">
                         About IDAB
                     </a>
                 </li>
@@ -57,11 +57,12 @@ function Navbar() {
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="Contact" className="nav__link">
+                    <a href="../contact/Contact.jsx" className="nav__link">
                         Contact
                     </a>
                 </li>
             </ul>
+            <AppRouter />
             <div onClick={navToggle} className={icon}>
                 <div className="line1"></div>
                 <div className="line2"></div>
