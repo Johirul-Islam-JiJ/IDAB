@@ -8365,10 +8365,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var _navbar_nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navbar/nav */ "./resources/js/components/navbar/nav.jsx");
-/* harmony import */ var _AppRouter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AppRouter */ "./resources/js/components/AppRouter.js");
-/* harmony import */ var _about_About__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about/About */ "./resources/js/components/about/About.jsx");
-/* harmony import */ var _footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./footer/Footer */ "./resources/js/components/footer/Footer.jsx");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _home_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home/Home */ "./resources/js/components/home/Home.jsx");
+/* harmony import */ var _AppRouter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./AppRouter */ "./resources/js/components/AppRouter.js");
+/* harmony import */ var _about_About__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./about/About */ "./resources/js/components/about/About.jsx");
+/* harmony import */ var _footer_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./footer/Footer */ "./resources/js/components/footer/Footer.jsx");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -8379,16 +8381,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Index() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
     className: "container",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_AppRouter__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_navbar_nav__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_about_About__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_footer_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {})]
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_AppRouter__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_navbar_nav__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_home_Home__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_about_About__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_footer_Footer__WEBPACK_IMPORTED_MODULE_6__["default"], {})]
   });
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
 
 if (document.getElementById('app')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(Index, {}), document.getElementById('app'));
+  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(Index, {}), document.getElementById('app'));
 }
 
 /***/ }),
@@ -8539,6 +8541,67 @@ var Footer = function Footer() {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
+
+/***/ }),
+
+/***/ "./resources/js/components/home/Home.jsx":
+/*!***********************************************!*\
+  !*** ./resources/js/components/home/Home.jsx ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _home_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.css */ "./resources/js/components/home/home.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+var Home = function Home() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+    className: "home_main",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "img_slider",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "banner-content",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "banner_text",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
+            children: "IDAB"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
+            children: "Interior designer\u2019s association Of Bangladesh"
+          })]
+        })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "Header_paragrap",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
+        children: "Interior designer\u2019s association Of Bangladesh"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
+        children: ["IDAB (Interior designer\u2019s Association Of Bangladesh) founded in 2019 with some young and energetic Bangladeshi Interior Designers to represent the Interior designers & interior design industry as a whole of Bangladesh.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "From 2020 IDAB start organizing all Bangladeshi Interior designers, architects to bring them under one umbrella. This process is ongoing. When you join the association of Interior Designers, you become part of a national and international network of interior designers. We are trying to make IDAB a professional organization that works for interior designers and architects."]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("input", {
+        className: "input",
+        type: "submit",
+        value: "We Are"
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "corporate",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
+        children: "IDAB Corporate partners"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+        children: "The IDAB Corporate Partnership program is a strategic partnership scheme between IDAB and key industry players, created with the vision of improving standards of professionalism within the Interior Design Industry. As a multi-tier annual endowment funding scheme that creates a long-term partnership between IDAB and industry leaders, the program carries the objective of establishing a platform where Interior Designers and industry leaders can work together on projects to raise awareness of the professionalism and importance of the interiors industry, to the future economic prosperity of the nation. Kindly contact the IDAB Secretariat general for more information regarding the IDAB Corporate Partnership program."
+      })]
+    })]
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
 
 /***/ }),
 
@@ -13940,7 +14003,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".container .welcome_massage {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n.container .welcome_massage h2 {\n  text-align: center;\n  padding: 14px;\n  font-weight: 600;\n  color: rgb(19, 103, 199);\n}\n.container .welcome_massage p {\n  text-align: justify;\n  width: 1175px;\n  margin: 0 auto;\n  padding: 27px;\n  font-size: 20px;\n}\n.container .history {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n.container .history h2 {\n  text-align: center;\n  padding: 14px;\n  font-weight: 600;\n  color: rgb(41, 91, 230);\n}\n.container .history p {\n  text-align: justify;\n  width: 1175px;\n  margin: 0 auto;\n  padding: 27px;\n  font-size: 20px;\n}\n.container .vision {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n.container .vision h2 {\n  text-align: center;\n  padding: 14px;\n  font-weight: 600;\n  color: rgb(32, 65, 209);\n}\n.container .vision p {\n  text-align: justify;\n  width: 1175px;\n  margin: 0 auto;\n  padding: 27px;\n  font-size: 20px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".container .welcome_massage {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n.container .welcome_massage h2 {\n  text-align: center;\n  padding: 14px;\n  font-weight: 600;\n  color: rgb(19, 103, 199);\n}\n.container .welcome_massage p {\n  text-align: justify;\n  width: 1175px;\n  margin: 0 auto;\n  padding: 27px;\n  font-size: 20px;\n}\n.container .history {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n.container .history h2 {\n  text-align: center;\n  padding: 14px;\n  font-weight: 600;\n  color: rgb(41, 91, 230);\n}\n.container .history p {\n  text-align: justify;\n  width: 1175px;\n  margin: 0 auto;\n  padding: 27px;\n  font-size: 20px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -13965,6 +14028,36 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\nfooter {\n\n    background: rgb(7, 70, 66);\n    padding: 3rem 0;\n    text-align: center;\n    font-size: 1.5rem;\n    margin-top: 7rem;\n}\n\n\nfooter a {\n    color: rgb(255, 255, 255);\n}\n\n.footer_logo {\n   font-size: 3rem;\n   font-weight: 700;\n   margin-bottom: 0.1rem;\n   display: inline-block;\n}\n.permalinks {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    gap: 5rem;\n    margin-right: 1rem;\n    margin-left: 1rem;\n\n}\n\n.footer_socials {\n    display: flex;\n    justify-content: center;\n    gap: 3rem;\n    margin-bottom: 0.2rem;\n}\n\n.footer_socials a{\n    background: rgb(7, 70, 66);\n    color: rgb(255, 255, 255);\n    padding: 2rem;\n    border-radius: 6rem;\n    display: flex;\n    border: 1px solid transparent;\n}\n\n.footer_socials a:hover{\n    background: transparent;\n    color: aquamarine;\n    border-color: red;\n\n}\n\n.footer_copyright {\n    margin-bottom: 4rem;\n    color: rgb(0, 0, 0);\n    font-size: 1.5rem;\n}\n\n\n/* ========== Media Queries (Medium Devices) =============*/\n@media screen and (max-width:1024px) {\n\n\n\n}\n\n\n/* ========== Media Queries (Small Devices) =============*/\n@media screen and (max-width:600px) {\n    .permalinks {\n        flex-direction: column;\n        gap: 1.5rem;\n    }\n\n    .footer_socials {\n        margin-bottom: 2.6rem;\n    }\n\n\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/home/home.css":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/home/home.css ***!
+  \*********************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_idab_profile_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/idab_profile.jpg */ "./resources/js/components/assets/idab_profile.jpg");
+// Imports
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_idab_profile_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".home_main .img_slider {\n  height: 90vh;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n.home_main .img_slider .banner-content .banner_text h1 {\n  text-align: center;\n  font-size: 80px;\n  text-transform: capitalize;\n  font-weight: 700;\n  line-height: 100px;\n}\n.home_main .img_slider .banner-content .banner_text h4 {\n  text-transform: capitalize;\n  font-size: 24px;\n  text-align: center;\n}\n.home_main .Header_paragrap {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n.home_main .Header_paragrap h2 {\n  text-align: center;\n  padding: 14px;\n  font-weight: 600;\n  color: rgb(179, 212, 118);\n}\n.home_main .Header_paragrap p {\n  text-align: justify;\n  width: 1175px;\n  margin: 0 auto;\n  padding: 27px;\n  font-size: 20px;\n}\n.home_main .Header_paragrap .input {\n  width: 109px;\n  height: 46px;\n  font-size: 21px;\n  background: darkgray;\n  border-radius: 4px;\n  cursor: pointer;\n  margin-left: 400px;\n}\n.home_main .corporate {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n.home_main .corporate h2 {\n  text-align: center;\n  padding: 14px;\n  font-weight: 600;\n  color: rgb(179, 212, 118);\n}\n.home_main .corporate p {\n  text-align: justify;\n  width: 1175px;\n  margin: 0 auto;\n  padding: 27px;\n  font-size: 20px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -14068,6 +14161,65 @@ module.exports = function (cssWithMappingToString) {
 
   return list;
 };
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== "string") {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+
+/***/ "./resources/js/components/assets/idab_profile.jpg":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/assets/idab_profile.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/idab_profile.jpg?7914db9cfea88cedd1f53893585abfb7");
 
 /***/ }),
 
@@ -66503,6 +66655,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_footer_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./resources/js/components/home/home.css":
+/*!***********************************************!*\
+  !*** ./resources/js/components/home/home.css ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_home_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./home.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/home/home.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_home_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_home_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
