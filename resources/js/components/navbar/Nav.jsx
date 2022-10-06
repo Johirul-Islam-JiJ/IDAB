@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./nav.css";
-import AppRouter from "../AppRouter";
 
 function Navbar() {
     const [active, setActive] = useState("nav__menu");
@@ -22,47 +21,49 @@ function Navbar() {
             </a>
             <ul className={active}>
                 <li className="nav__item">
-                    <a href="/" className="nav__link">
+                    <a href="home/home.js" className="nav__link">
                         Home
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="http://127.0.0.1:8000/" className="nav__link">
+                    <a href="about/about_idab.js" className="nav__link">
                         About IDAB
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="/" className="nav__link">
+                    <a href="members/members.js" className="nav__link">
                         Members
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="/" className="nav__link">
+                    <a
+                        href="constitution/constitution.js"
+                        className="nav__link"
+                    >
                         Constitution
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="/" className="nav__link">
+                    <a href="events/events.js" className="nav__link">
                         Events
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="/" className="nav__link">
+                    <a href="notice/notice.js" className="nav__link">
                         Notice
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="/" className="nav__link">
+                    <a href="publication/publication.js" className="nav__link">
                         Publication
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="../contact/Contact.jsx" className="nav__link">
+                    <a href="contact/contact.js" className="nav__link">
                         Contact
                     </a>
                 </li>
             </ul>
-            <AppRouter />
             <div onClick={navToggle} className={icon}>
                 <div className="line1"></div>
                 <div className="line2"></div>

@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Nav from './navbar/nav';
-import Footer from './footer/Footer';
-import Contact from './contact/Contact';
 import AppRouter from './AppRouter';
 import About from './about/About';
 function Index() {
@@ -11,8 +9,8 @@ function Index() {
             <AppRouter />
             <Nav />
             <About />
-            <Contact />
-            <Footer />
+
+
         </div>
     );
 }
