@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import Nav from './navbar/nav';
 import AppRouter from './AppRouter';
 import About from './about/About';
+import Footer from './footer/Footer';
 function Index() {
     return (
         <div className="container">
             <AppRouter />
             <Nav />
             <About />
+            <Footer />
 
 
         </div>

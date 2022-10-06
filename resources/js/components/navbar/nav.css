@@ -29,7 +29,8 @@ html body .nav ul li {
   list-style: none;
 }
 html body .nav ul li :hover {
-  color: rgb(218, 240, 179);
+  color: rgb(247, 181, 2);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   font-size: 22px;
   padding-top: 5px;
 }
